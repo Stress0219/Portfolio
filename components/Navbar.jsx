@@ -66,7 +66,7 @@ export default function Navbar() {
               </div>
             </div>
             <div className="border-b border-[#148102] my-4">
-              <p className="w-[85%] md:w-[90%] py-4">Let's build something Amazing! together</p>
+              <p className="w-[85%] md:w-[90%] py-4">Let&apos;s build something Amazing! together</p>
             </div>
           </div>
           <div className="py-4 flex flex-col">
@@ -88,7 +88,7 @@ export default function Navbar() {
               </Link>
             </ul>
             <div className="sm:pt-5 md:pt-32">
-              <p className="uppercase tracking-widest text-[#a9ff84]">Let's Connect</p>
+              <p className="uppercase tracking-widest text-[#a9ff84]">Let&apos;s Connect</p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-[#003e00] p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <FaLinkedinIn/>
