@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai/index";
 import {FaGithub, FaLinkedinIn} from "react-icons/fa/index"
+import navlogo from "../public/assets/navlogo.png"
 
 export default function Navbar() {
   const [nav, setNav] = useState(false)
@@ -16,7 +17,7 @@ export default function Navbar() {
     <div className="fixed w-full h-20 shadow-xl shadow-[#035402] z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/navlogo.png"
+          src={navlogo}
           width="150"
           height="90"
           alt="/"
