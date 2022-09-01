@@ -18,8 +18,8 @@ export default function Navbar() {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           src={navlogo}
-          width="150"
-          height="90"
+          width="150px"
+          height="90px"
           alt="/"
         />
         <div>
@@ -61,7 +61,7 @@ export default function Navbar() {
                       : "fixed top-0 left-[-200%] p-10 ease-in duration-500" }>
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src = "/../public/assets/navlogo.png" width="100" height="80" alt = "/" />
+              <Image src =  {navlogo}width="100" height="80" alt = "/" />
               <div onClick={handleNav} className="rounded-full shadow-lg shadow-[#003e00] p-3 mx-0 cursor-pointer">
                 <AiOutlineClose/>
               </div>
