@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import html from "../public/assets/skills/html.png"
-import css from "../public/assets/skills/html.png"
-import javascript from "../public/assets/skills/html.png"
-import nodejs from "../public/assets/skills/nodejs.jpeg"
+import css from "../public/assets/skills/css.png"
+import javascript from "../public/assets/skills/javascript.png"
+import nodejs from "../public/assets/skills/node.png"
 import nextjs from "../public/assets/skills/nextjs.png"
 import tailwind from "../public/assets/skills/tailwind-css.png"
 import reactjs from "../public/assets/skills/react-logo.png"
@@ -13,7 +13,7 @@ import github from "../public/assets/skills/github.png"
 
 const Skills = () => {
   return (
-    <div className = "w-full lg:h-screen p-2">
+    <div id="skills" className = "w-full lg:h-screen p-2">
         <div className = "max-w-[1240px] mx-auto flex flex-col justify-center h-full">
             <p className = "text-xl tracking-widest uppercase text-[#148102]">Skills</p>
             <h2 className = "py-4">What I Can Do</h2>
